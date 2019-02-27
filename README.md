@@ -2,7 +2,7 @@
 ###### (works only in debian based LINUX)
 
 ### How To run
-1. compile server.cpp ---> g++ -o ser server.cpp
+1. compile server.cpp ---> g++ -o ser server.cpp -lcrypto
 2. start server ---> ./ser 9999(PortNo)
 3. compile client.cpp --> g++ -o cl client.cpp
 4. start client -->  ./cl 127.0.0.1 9999(SamePortNo as Server)
